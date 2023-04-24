@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landmen/static/css/main.6c631ac0.css",
-    "main.js": "/landmen/static/js/main.fcaba67b.js",
+    "main.css": "/landmen/static/css/main.cf363e98.css",
+    "main.js": "/landmen/static/js/main.99aba2ad.js",
     "static/js/787.1d0918d9.chunk.js": "/landmen/static/js/787.1d0918d9.chunk.js",
     "static/media/s3.png": "/landmen/static/media/s3.c33e094d48622b4ab893.png",
     "static/media/s4.png": "/landmen/static/media/s4.fbfb537c81b3745d3f04.png",
@@ -16,12 +16,12 @@
     "static/media/fjeans.webp": "/landmen/static/media/fjeans.a691d54d6fb2720c2190.webp",
     "static/media/mjeans.webp": "/landmen/static/media/mjeans.ad9b74317689da8dc898.webp",
     "index.html": "/landmen/index.html",
-    "main.6c631ac0.css.map": "/landmen/static/css/main.6c631ac0.css.map",
-    "main.fcaba67b.js.map": "/landmen/static/js/main.fcaba67b.js.map",
+    "main.cf363e98.css.map": "/landmen/static/css/main.cf363e98.css.map",
+    "main.99aba2ad.js.map": "/landmen/static/js/main.99aba2ad.js.map",
     "787.1d0918d9.chunk.js.map": "/landmen/static/js/787.1d0918d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6c631ac0.css",
-    "static/js/main.fcaba67b.js"
+    "static/css/main.cf363e98.css",
+    "static/js/main.99aba2ad.js"
   ]
 }
