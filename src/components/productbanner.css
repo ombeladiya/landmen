@@ -2,3 +2,8 @@
     width: 88vw;
     max-height: 330px;
 }
+@media screen and (max-width:500px) {
+    .prd-card-out img {
+        height: 121px;
+    }
+}

@@ -47,3 +47,12 @@
 #cat6 {
     background-image: url('../images/mtshirt.webp');
 }
+@media screen and (max-width:500px) {
+    .catp>h2 {
+        font-size: 8px;
+    }
+
+    .cat {
+        border: 0.2px solid rgb(52, 11, 58);
+    }
+}

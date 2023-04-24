@@ -7,7 +7,7 @@ export default function Slider() {
     return (
         <div>
 
-            <div className="container slidebox mt-3">
+            <div className="container slidebox">
                 <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-bs-interval="3000">

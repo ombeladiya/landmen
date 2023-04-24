@@ -10,7 +10,7 @@ export default function Home() {
     return (
         <div>
             <Slider />
-            <br /><br />
+
             <Category />
             <ProductBanner />
             <br />
