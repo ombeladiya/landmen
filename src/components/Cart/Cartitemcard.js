@@ -1,7 +1,7 @@
 import React from "react";
 import "./CartItemCard.css";
 import img1 from '../../images/p7.webp';
-import { Link } from "react-router-dom";
+
 
 const CartItemCard = () => {
     return (
