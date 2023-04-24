@@ -1,0 +1,323 @@
+.pslide {
+    width: 75vmax;
+    height: 400px;
+}
+
+.pdetail {
+    width: 40vw;
+}
+
+.pdetail #carouselExampleAutoplaying {
+    width: 75vw;
+    height: 400px;
+    margin: auto;
+    display: none;
+}
+
+.product-detail-title {
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.product-detail-subtitle {
+    font-size: 18px;
+    color: rgb(128, 128, 128);
+}
+
+.revrat {
+    padding: 1px;
+    padding-left: 5px;
+}
+
+.ratting {
+    font-weight: 600;
+}
+
+.fa-star {
+    color: rgb(52, 11, 58);
+    font-size: smaller;
+}
+
+.rat span {
+    margin: 2px;
+    font-size: small;
+}
+
+.rat {
+    padding: 2px;
+    margin-right: 5px;
+}
+
+.tratting {
+    font-weight: 600;
+}
+
+.oriprice {
+    font-size: xx-large;
+    font-weight: 500;
+}
+
+.dupprice {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.dmrp {
+    color: gray;
+}
+
+.rimf {
+    font-size: medium;
+}
+
+#quntity {
+    margin-left: 4px;
+    padding: 0px 3px;
+}
+
+
+
+.price div p {
+    color: rgb(117, 40, 172);
+    font-weight: 600;
+}
+
+.delivary-date {
+    margin: 0px 10px;
+    color: rgb(52, 11, 58);
+    font-weight: 600;
+}
+
+.off {
+    color: red;
+    font-size: x-large;
+    margin-left: 5px;
+}
+
+.size {
+    width: 30px;
+    height: 30px;
+    border: 0.8px solid rgb(194, 194, 194);
+    margin: 6px;
+    font-size: large;
+    color: rgb(49, 49, 49);
+    border-radius: 2px;
+}
+
+.size:hover {
+    border: 1.5px solid black;
+    cursor: pointer;
+}
+
+.size1 p {
+    font-size: large;
+    font-weight: 500;
+    height: 100%;
+    margin: auto 0px;
+}
+
+.bcbtn button {
+    margin-right: 20px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(227, 199, 57);
+    color: rgb(0, 0, 0);
+    padding: 7px 20px;
+}
+
+.productdes a {
+    color: rgb(52, 11, 58);
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.ratting-head {
+    font-weight: 600;
+    font-size: larger;
+}
+
+.total-star {
+    width: 200px;
+    height: 5px;
+    border: 0.5px solid rgb(192, 192, 192);
+    margin: 7px;
+    border-radius: 10px;
+}
+
+.star5 {
+    color: rgb(100, 100, 100);
+    font-size: small;
+}
+
+.starper {
+    height: 5px;
+    border-radius: 10px;
+}
+
+.indi-star {
+    color: #a7a7a7;
+}
+
+#star-5 {
+    background-color: green;
+    width: 78%;
+}
+
+#star-4 {
+    background-color: green;
+    width: 38%;
+}
+
+#star-3 {
+    background-color: rgb(232, 151, 11);
+    width: 63%;
+}
+
+#star-2 {
+    background-color: red;
+    width: 13%;
+}
+
+#star-1 {
+    background-color: red;
+    width: 3%;
+}
+
+
+
+
+
+#rating_bar {
+    width: 100px;
+    height: 100px;
+    display: inline;
+    unicode-bidi: bidi-override;
+    direction: rtl;
+}
+
+#rating_bar>span:before {
+    content: '\2605';
+    color: #c2c2c2;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 2em;
+}
+
+#rating_bar>span:hover:before,
+#rating_bar span:hover~span:before {
+    color: rgb(52, 11, 58);
+}
+
+
+
+#comment_input {
+    padding: 3px 10px;
+    width: 280px;
+    border: 0.8ps solid rgb(226, 226, 226);
+    border-radius: 2px;
+}
+
+.submit_review_btn {
+    background-color: rgb(220, 220, 220);
+    border: none;
+    padding: 2px 15px;
+    border-radius: 3px;
+}
+
+
+
+.u-icon-review {
+    padding-top: 9px;
+}
+
+.usernamrreview {
+    margin-left: 10px;
+    margin-top: -5px;
+    font-weight: 600;
+
+}
+
+.ratting-user-review {
+    margin-left: 15px;
+
+}
+
+.rat-star-indi {
+    margin: 2px;
+    color: #4f4f4f;
+    font-size: small;
+}
+
+.review-content {
+    padding: 3px;
+}
+
+.ratt {
+    padding: 0px 4px;
+    margin-left: 10px;
+    margin-top: -5px;
+}
+
+.rattting {
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 3px;
+}
+
+.re-rat-star {
+    font-size: x-small;
+    margin-left: 3px;
+    margin-top: -5px;
+    color: rgb(0, 102, 54);
+}
+
+
+
+
+.simg {
+    flex-wrap: wrap;
+    height: 165vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.small-img-product {
+    width: 25vmax;
+    height: 400px;
+    min-height: 300px;
+    margin: 10px;
+}
+
+.simg::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+
+
+@media screen and (max-width:900px) {
+    .pdetail {
+        width: 90vw;
+    }
+
+    .pslide {
+        width: 75vw;
+        height: 400px;
+    }
+
+    .productdetail {
+        flex-direction: column;
+    }
+
+    .pdetail #carouselExampleAutoplaying {
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    .big-screen-img {
+        display: none;
+    }
+}

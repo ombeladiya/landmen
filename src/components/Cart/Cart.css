@@ -1,0 +1,73 @@
+.kupan,
+.makepayment {
+    width: 25vmax;
+    padding: 10px;
+    border-radius: 2px;
+    border: 0.7px solid rgb(231, 231, 231);
+}
+
+.kupan>div>div {
+    color: rgb(255, 52, 52);
+    font-size: 14px;
+}
+
+.kupan>div {
+    margin-top: -17px;
+}
+
+.kupan>div>div>span {
+    color: black;
+    margin-left: 5px;
+}
+
+.mrp-cart {
+    width: 23vmax;
+    font-size: 14px;
+    position: relative;
+}
+
+.mrp-cart>span {
+    position: absolute;
+    right: 0px;
+    font-weight: 500;
+    color: rgb(24, 24, 24);
+}
+
+.proceed-to-pay-btn {
+    width: 25vmax;
+    border: none;
+    height: 30px;
+    border-radius: 2px;
+    background-color: rgb(227, 199, 57);
+}
+
+.bill-div {
+    margin-left: 50px;
+}
+
+
+@media screen and (max-width:700px) {
+    .cartitem-div {
+        flex-direction: column;
+    }
+
+    .bill-div {
+        margin-top: 40px;
+    }
+
+    .kupan,
+    .makepayment {
+        width: 90vw;
+        margin: auto;
+    }
+
+    .mrp-cart {
+        width: 83vw;
+    }
+
+    .proceed-to-pay-btn {
+        width: 90vw;
+        margin-left: 2.5vw;
+    }
+
+}

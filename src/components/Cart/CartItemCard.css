@@ -1,0 +1,70 @@
+.CartItemCard {
+    display: flex;
+    padding: 1vmax;
+    width: 40vmax;
+    align-items: flex-start;
+    box-sizing: border-box;
+    border-radius: 2px;
+    border: 0.7px solid rgb(240, 240, 240);
+}
+
+.CartItemCard>img {
+    width: 9.7vmax;
+}
+
+.oriprice-cart {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.off-cart {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dupprice-cart {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.dmrp-cart {
+    color: gray;
+    font-size: 13px;
+}
+
+.size-cart {
+    font-size: 14px;
+}
+
+.size-cart span {
+    font-size: 13px;
+}
+
+.rimf-cart {
+    font-size: 14px;
+}
+
+#quntity-cart {
+    margin-left: 3px;
+    padding: 0px 2px;
+    font-size: 12px;
+}
+
+.bcbtn-cart button {
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(228, 228, 228);
+    color: rgb(0, 0, 0);
+    padding: 0px 6px;
+    font-size: 13px;
+}
+
+.cart-name {
+    font-size: 18px;
+}
+
+@media screen and (max-width:700px) {
+    .cart-name {
+        font-size: 14px;
+    }
+}

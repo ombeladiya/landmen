@@ -1,0 +1,49 @@
+.cat {
+    width: 10vw;
+    height: 10vw;
+    background-color: rgb(52, 11, 58);
+    margin: auto;
+    border-radius: 150px;
+    background-size: cover;
+    border: 3px solid rgb(52, 11, 58);
+}
+
+.cat:hover {
+    border-color: rgb(142, 25, 142);
+}
+
+.cat:hover~h2 {
+    color: rgb(115, 23, 115);
+}
+
+.catp {
+    margin: auto;
+}
+
+.cat h2 {
+    margin-top: 60%;
+}
+
+#cat1 {
+    background-image: url('../images/mjeans.webp');
+}
+
+#cat2 {
+    background-image: url('../images/mshirts.webp');
+}
+
+#cat3 {
+    background-image: url('../images/fkurta.webp');
+}
+
+#cat4 {
+    background-image: url('../images/fjeans.webp');
+}
+
+#cat5 {
+    background-image: url('../images/fshirt.webp');
+}
+
+#cat6 {
+    background-image: url('../images/mtshirt.webp');
+}

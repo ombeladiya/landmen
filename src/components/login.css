@@ -1,0 +1,78 @@
+.main-box-login {
+    height: 75vh;
+}
+
+.login-box {
+    width: 100vw;
+    min-height: 200px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-bottom: auto;
+
+}
+
+.lbox {
+    border: 0.5px solid rgb(238, 238, 238);
+    width: 260px;
+    background-color: white;
+}
+
+.mobileno {
+    padding: 5px 25px;
+}
+
+.mobileno b {
+    font-weight: 500;
+    color: rgb(78, 7, 51);
+}
+
+.mobileno label {
+    font-size: 14px;
+}
+
+.mobileno p span {
+    font-size: 16px;
+    margin-left: 4px;
+    cursor: pointer;
+}
+
+.mobileno p {
+    font-size: 14px;
+}
+
+.mobile-number-input,
+.otp-number-input,
+.login-btn {
+    width: 200px;
+    height: 25px;
+    padding: 0px 5px;
+    border: 0.7px solid rgb(216, 216, 216);
+    border-radius: 2px;
+    font-size: 13px;
+}
+
+.mobile-number-input:focus,
+.otp-number-input:focus {
+    outline: none;
+}
+
+.login-btn {
+    background-color: rgb(225, 212, 68);
+    border: none;
+    color: rgb(8, 7, 7);
+    padding: 3px;
+    font-size: 14px;
+    border-radius: 3px;
+}
+
+.swap-link-btn {
+    color: rgb(92, 41, 169);
+}
+
+
+@media screen and (max-width:400px) {
+    .lbox {
+        border: none;
+        margin-top: -30px;
+    }
+}
