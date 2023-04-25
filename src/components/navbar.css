@@ -19,14 +19,13 @@
     height: 50px;
 }
 
-.nav-opt ul li {
+.nav-opt>ul>li {
     list-style: none;
     /* font-family: 'PT Sans Narrow', sans-serif;*/
     padding: 8.5px 14px;
     font-size: small;
     color: white;
 }
-
 .logo {
     color: white;
     height: 50px;

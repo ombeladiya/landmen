@@ -1,3 +1,13 @@
+.category-div {
+    margin-left: 10vw;
+    overflow: scroll;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.category-div>a {
+    margin-right: 35px;
+}
 .cat {
     width: 10vw;
     height: 10vw;
@@ -20,9 +30,7 @@
     margin: auto;
 }
 
-.cat h2 {
-    margin-top: 60%;
-}
+
 
 #cat1 {
     background-image: url('../images/mjeans.webp');
@@ -49,10 +57,19 @@
 }
 @media screen and (max-width:500px) {
     .catp>h2 {
-        font-size: 8px;
-    }
-
+        font-size: 12px;
+        }
+        
+        .category-div {
+        
+            margin-left: 5px;
+        }
+                                .category-div>a {
+                                    margin-right: 15px;
+                                }
     .cat {
+        width: 50px;
+            height: 50px;
         border: 0.2px solid rgb(52, 11, 58);
     }
 }

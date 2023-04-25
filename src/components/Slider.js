@@ -3,9 +3,10 @@ import "./slider.css"
 import img1 from '../images/s1.jpg';
 import img2 from '../images/s4.png';
 import img3 from '../images/s3.png';
+import Category from './Category';
 export default function Slider() {
     return (
-        <div>
+        <div className='slider-main-div d-flex'>
 
             <div className="container slidebox">
                 <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
@@ -29,6 +30,9 @@ export default function Slider() {
                         <span className="visually-hidden">Next</span>
                     </button>
                 </div>
+            </div>
+            <div>
+                <Category />
             </div>
         </div>
     )

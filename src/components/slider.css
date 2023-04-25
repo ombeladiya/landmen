@@ -8,15 +8,22 @@
     width: 100vw;
     height: 50vh;
     margin-left: 0px;
-    margin-top: -10px;
+    margin-top: 0px;
+    }
+    
+    .slider-main-div {
+        flex-direction: column;
 }
 @media screen and (max-width:500px) {
     .slide {
-        height: 130px;
+        height: 160px;
     }
 
     .slidebox {
-        height: 130px;
+        height: 160px;
         margin-top: 0px;
     }
+   .slider-main-div {
+       flex-direction: column-reverse;
+   }
 }
