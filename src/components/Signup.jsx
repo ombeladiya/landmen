@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './login.css';
 export default function Signup() {
     const [showOtpField, setShowOtpField] = useState(false);
 
@@ -18,7 +19,7 @@ export default function Signup() {
             <br />
             <div className="main-box-login d-flex">
                 <div className="login-box d-flex justify-content-center">
-                    <div className="container lbox ">
+                    <div className="lbox ">
 
                         <form action="" onSubmit={handlesubmit} >
                             <div className="mobileno text-center fs-5" ><b>Sign Up</b></div>

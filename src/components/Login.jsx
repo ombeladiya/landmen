@@ -20,7 +20,7 @@ export default function Login() {
             <br />
             <div className="main-box-login d-flex">
                 <div className="login-box d-flex justify-content-center">
-                    <div className=" lbox ">
+                    <div className="lbox ">
 
                         <form action="" onSubmit={handlesubmit} >
                             <div className="mobileno text-center fs-5" ><b>log in</b></div>

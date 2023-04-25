@@ -128,13 +128,8 @@
     .sortbtn {
         display: none;
     }
-                                .productlisting-sub-div {
-                                    margin-left: 0px;
-                                }
-        
-                                }
-                
-                                @media screen and (max-width:400px) {
-                                    .productlisting-sub-div {}
-    
+        .productlisting-sub-div {
+            margin-left: 0px;
+        }
 }
+                
