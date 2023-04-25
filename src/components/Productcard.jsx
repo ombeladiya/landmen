@@ -6,7 +6,7 @@ import img4 from '../images/p18.webp';
 const ProductCard = () => {
 
     return (
-        <Link className="productCard mt-3" to={`/product1`}>
+        <Link className="productCard" to={`/product1`}>
             <div className="product-grid">
                 <div className="product-image">
                     <a href="/" className="image">
@@ -14,8 +14,8 @@ const ProductCard = () => {
                         <img className="img-2" src={img4} alt="" />
                     </a>
                 </div>
-                <div className="product-content">
-                    <ul className="rating">
+                <div className="product-content d-flex justify-content-between flex-column">
+                    <ul className="rating ">
                         <li className="fas fa-star"></li>
                         <li className="fas fa-star"></li>
                         <li className="fas fa-star"></li>
@@ -24,7 +24,7 @@ const ProductCard = () => {
                         <li className="disable">(187 reviews)</li>
                     </ul>
                     <h3 className="title"><a href="/">Yellow Kurti</a></h3>
-                    <div className="price">₹ 799</div>
+                    <div className="price">₹ 799 <span>  ₹ 1299</span></div>
                 </div>
             </div>
         </Link>

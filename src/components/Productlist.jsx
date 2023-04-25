@@ -127,7 +127,7 @@ export default function Productlist() {
                     </div>
                 </div>
                 <div className="productlisting-div">
-                    <div className="container my-3 d-flex flex-wrap mx-2">
+                    <div className="productlisting-sub-div container my-3 d-flex ">
                         <br /><br />
                         <ProductCard />
                         <ProductCard />

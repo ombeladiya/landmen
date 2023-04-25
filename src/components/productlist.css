@@ -114,7 +114,10 @@
     margin-right: 3px;
 
 }
-
+.productlisting-sub-div {
+    margin-left: 30px;
+    flex-wrap: wrap;
+}
 
 
 @media screen and (max-width:700px) {
@@ -125,6 +128,13 @@
     .sortbtn {
         display: none;
     }
-
-
+                                .productlisting-sub-div {
+                                    margin-left: 0px;
+                                }
+        
+                                }
+                
+                                @media screen and (max-width:400px) {
+                                    .productlisting-sub-div {}
+    
 }
