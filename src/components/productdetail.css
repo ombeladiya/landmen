@@ -305,20 +305,28 @@
     }
 
     .pslide {
-        width: 280px;
+        width: 300px;
     }
-
+.bcbtn,
+.size1 {
+    margin-left: 20px;
+}
     .productdetail {
         flex-direction: column;
+        padding: 10px;
     }
 
     .pdetail #carouselExampleAutoplaying {
         display: block;
-        width: 280px;
+        width: 300px;
             margin: auto;
         margin-bottom: 30px;
-        margin-top: -25px;
-    }
+        margin-top: -45px;
+        }
+        
+        .pdt {
+            padding: 25px;
+        }
 
     .big-screen-img {
         display: none;

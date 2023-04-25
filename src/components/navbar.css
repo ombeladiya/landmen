@@ -54,7 +54,7 @@
 
 .search-secondary {
     width: 80vmax;
-    height: 29px;
+    height: 35px;
     position: relative;
     margin: auto;
     display: none;
@@ -73,7 +73,7 @@
 
 .search-input-secondary {
     width: 80vmax;
-    height: 29px;
+    height: 35px;
     border: none;
     padding: 0px 8px;
     background-color: white;
@@ -88,6 +88,18 @@
     font-size: small;
     width: 27px;
     height: 27px;
+    border: none;
+    color: white;
+    position: absolute;
+    right: 1px;
+    border-radius: 18px;
+    margin-top: 1px;
+    background-color: rgb(24, 23, 23);
+}
+.search-btn-secondary {
+    font-size: small;
+    width: 33px;
+    height: 33px;
     border: none;
     color: white;
     position: absolute;
@@ -223,9 +235,15 @@
         width: 90vw;
     }
 
-
+                                .hamburgerd {
+                                    width: 20px;
+                                    height: 2.5px;
+                                    background-color: rgb(255, 255, 255);
+                                    margin: 3.4px 0px;
+                                }
 
     .nav-opt>ul>li {
         padding: 8.5px 8px;
+        font-size: 16px;
     }
 }

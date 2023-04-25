@@ -50,7 +50,7 @@ export default function Productdetail() {
                         </div>
                     </div>
                 </div>
-                <div className="pdetail container">
+                <div className="pdetail container pdt">
 
                     <h1 className="product-detail-title">Luxure by Louis Philippe</h1>
                     <h2 className="product-detail-subtitle">Men White Slim Fit Casual Shirt</h2>

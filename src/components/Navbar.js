@@ -137,7 +137,7 @@ export default function Navbar() {
             <div className='secondary-navbar d-flex align-middle'>
                 <div className="search-secondary ">
                     <input className="search-input-secondary" type="search" name="search" placeholder="Search for Products" />
-                    <button className="search-btn" type="submit" name="search"><i className="fas fa-search" aria-hidden="true"></i></button>
+                    <button className="search-btn-secondary" type="submit" name="search"><i className="fas fa-search" aria-hidden="true"></i></button>
                 </div>
             </div>
         </div >
