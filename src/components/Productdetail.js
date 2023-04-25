@@ -10,7 +10,7 @@ export default function Productdetail() {
         <div >
             <br /><br />
             <div className="productdetail container d-flex " >
-                <div className="pdetail" >
+                <div className="pdetail container" >
                     <div id="carouselExampleAutoplaying" className="carousel carousel-fade slide shadow-sm" data-bs-ride="carousel">
                         <div className="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide-to="0" className="active" aria-current="true" aria-label="Slide 1"></button>
@@ -50,7 +50,7 @@ export default function Productdetail() {
                         </div>
                     </div>
                 </div>
-                <div className="pdetail">
+                <div className="pdetail container">
 
                     <h1 className="product-detail-title">Luxure by Louis Philippe</h1>
                     <h2 className="product-detail-subtitle">Men White Slim Fit Casual Shirt</h2>

@@ -1,6 +1,6 @@
 .pslide {
     width: 75vmax;
-    height: 400px;
+    height: 380px;
 }
 
 .pdetail {
@@ -9,7 +9,7 @@
 
 .pdetail #carouselExampleAutoplaying {
     width: 75vw;
-    height: 400px;
+    height: 380px;
     margin: auto;
     display: none;
 }
@@ -298,14 +298,14 @@
 
 
 
-@media screen and (max-width:900px) {
+@media screen and (max-width:800px) {
     .pdetail {
-        width: 90vw;
+        width: 100vw;
+            margin-left: -15px;
     }
 
     .pslide {
-        width: 75vw;
-        height: 400px;
+        width: 280px;
     }
 
     .productdetail {
@@ -314,7 +314,10 @@
 
     .pdetail #carouselExampleAutoplaying {
         display: block;
+        width: 280px;
+            margin: auto;
         margin-bottom: 30px;
+        margin-top: -25px;
     }
 
     .big-screen-img {
