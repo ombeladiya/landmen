@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/landmen/static/css/main.9dc067dd.css",
-    "main.js": "/landmen/static/js/main.8204992a.js",
+    "main.css": "/landmen/static/css/main.07eee9d9.css",
+    "main.js": "/landmen/static/js/main.7acfb745.js",
     "static/js/787.1d0918d9.chunk.js": "/landmen/static/js/787.1d0918d9.chunk.js",
     "static/media/s3.png": "/landmen/static/media/s3.c33e094d48622b4ab893.png",
     "static/media/s4.png": "/landmen/static/media/s4.fbfb537c81b3745d3f04.png",
     "static/media/s1.jpg": "/landmen/static/media/s1.032cf4c3abc1146bb514.jpg",
     "static/media/s5.gif": "/landmen/static/media/s5.780e5929ab91cfd0a0f7.gif",
     "static/media/mtshirt.webp": "/landmen/static/media/mtshirt.e491f6b684848dce9bc9.webp",
+    "static/media/logojpgf.jpg": "/landmen/static/media/logojpgf.e38e05abdc0f975de1bf.jpg",
     "static/media/p18.webp": "/landmen/static/media/p18.fb394b3f57d9f60110ef.webp",
     "static/media/fkurta.webp": "/landmen/static/media/fkurta.75a6b473f0a476dfdf36.webp",
     "static/media/mshirts.webp": "/landmen/static/media/mshirts.d1a6095748955bef166c.webp",
@@ -16,12 +17,12 @@
     "static/media/fjeans.webp": "/landmen/static/media/fjeans.a691d54d6fb2720c2190.webp",
     "static/media/mjeans.webp": "/landmen/static/media/mjeans.ad9b74317689da8dc898.webp",
     "index.html": "/landmen/index.html",
-    "main.9dc067dd.css.map": "/landmen/static/css/main.9dc067dd.css.map",
-    "main.8204992a.js.map": "/landmen/static/js/main.8204992a.js.map",
+    "main.07eee9d9.css.map": "/landmen/static/css/main.07eee9d9.css.map",
+    "main.7acfb745.js.map": "/landmen/static/js/main.7acfb745.js.map",
     "787.1d0918d9.chunk.js.map": "/landmen/static/js/787.1d0918d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9dc067dd.css",
-    "static/js/main.8204992a.js"
+    "static/css/main.07eee9d9.css",
+    "static/js/main.7acfb745.js"
   ]
 }
