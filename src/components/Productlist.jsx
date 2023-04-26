@@ -143,6 +143,10 @@ export default function Productlist() {
                 </div>
 
             </div>
+            <div className="bottombar d-flex">
+                <button className="filter-sort-btn">Filter</button>
+                <button className="filter-sort-btn">Sort</button>
+            </div>
         </>
     )
 }

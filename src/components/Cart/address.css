@@ -161,11 +161,12 @@
         width: 95vw;
         margin: 0px;
         border: none;
-        padding: 3px 10px;
+        padding: 3px 16px;
     }
 
     .add-input {
         width: 83vw;
+        height: 33px;
         margin: auto;
     }
 

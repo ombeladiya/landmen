@@ -1,12 +1,13 @@
 import React from 'react';
 import './navbar.css';
+import logo from '../images/logojpgf.jpg'
 import { Link } from 'react-router-dom';
 export default function Navbar() {
     return (
         <div>
             <nav className="navbar ">
                 <div className="d-flex">
-                    <div className="logo"><a href="./navbar.html"><img src="faiconicon.jpg" alt='' />LANDMEN</a></div>
+                    <div className="logo"><a href="./navbar.html"><img src={logo} alt='L' />LANDMEN</a></div>
                     <div className="search align-middle">
                         <input className="search-input" type="search" name="search" placeholder="Search for Products" />
                         <button className="search-btn" type="submit" name="search"><i className="fas fa-search" aria-hidden="true"></i></button>
