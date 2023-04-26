@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/landmen/static/css/main.1123e75b.css",
-    "main.js": "/landmen/static/js/main.2ba7ed05.js",
+    "main.css": "/landmen/static/css/main.99bd5feb.css",
+    "main.js": "/landmen/static/js/main.7abd35f2.js",
     "static/js/787.1d0918d9.chunk.js": "/landmen/static/js/787.1d0918d9.chunk.js",
     "static/media/s4.png": "/landmen/static/media/s4.4fef13e99738af365968.png",
     "static/media/s3.jpg": "/landmen/static/media/s3.a069d220c6356bb2168c.jpg",
@@ -18,15 +18,15 @@
     "static/media/fjeans.webp": "/landmen/static/media/fjeans.a691d54d6fb2720c2190.webp",
     "static/media/p22.webp": "/landmen/static/media/p22.e3ebc181affeb169aa1b.webp",
     "static/media/p21.webp": "/landmen/static/media/p21.df65eee6988d1fdfd4a9.webp",
-    "static/media/mjeans.webp": "/landmen/static/media/mjeans.ad9b74317689da8dc898.webp",
     "static/media/p2.webp": "/landmen/static/media/p2.343d63c517e4feaa22c1.webp",
+    "static/media/p8.webp": "/landmen/static/media/p8.2d5d86def722349212af.webp",
     "index.html": "/landmen/index.html",
-    "main.1123e75b.css.map": "/landmen/static/css/main.1123e75b.css.map",
-    "main.2ba7ed05.js.map": "/landmen/static/js/main.2ba7ed05.js.map",
+    "main.99bd5feb.css.map": "/landmen/static/css/main.99bd5feb.css.map",
+    "main.7abd35f2.js.map": "/landmen/static/js/main.7abd35f2.js.map",
     "787.1d0918d9.chunk.js.map": "/landmen/static/js/787.1d0918d9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1123e75b.css",
-    "static/js/main.2ba7ed05.js"
+    "static/css/main.99bd5feb.css",
+    "static/js/main.7abd35f2.js"
   ]
 }
