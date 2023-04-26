@@ -14,16 +14,22 @@
     .slider-main-div {
         flex-direction: column;
 }
+.category {
+    display: none;
+}
 @media screen and (max-width:500px) {
     .slide {
-        height: 160px;
+        height: 130px;
     }
 
     .slidebox {
-        height: 160px;
+        height: 130px;
         margin-top: 0px;
     }
    .slider-main-div {
        flex-direction: column-reverse;
+   }
+   .category {
+       display: flex;
    }
 }

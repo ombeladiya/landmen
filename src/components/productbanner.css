@@ -2,6 +2,24 @@
     width: 88vw;
     max-height: 330px;
 }
+.cat-card {
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.cat-card>a {
+    margin: 2px auto;
+}
+
+.main-category-card2>img {
+    width: 17vmax;
+    height: 16vmax;
+    border-radius: 290px;
+}
+
+.main-category-card>img {
+    width: 17vmax;
+}
 @media screen and (max-width:500px) {
     .prd-card-out img {
         height: 121px;

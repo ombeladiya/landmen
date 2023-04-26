@@ -1,8 +1,8 @@
 import React from 'react'
 import "./slider.css"
-import img1 from '../images/s1.jpg';
+import img1 from '../images/s2.png';
 import img2 from '../images/s4.png';
-import img3 from '../images/s3.png';
+import img3 from '../images/s3.jpg';
 import Category from './Category';
 export default function Slider() {
     return (
@@ -32,7 +32,9 @@ export default function Slider() {
                 </div>
             </div>
             <div>
+                <div className="category">
                 <Category />
+                </div>
             </div>
         </div>
     )

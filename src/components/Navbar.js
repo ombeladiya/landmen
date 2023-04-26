@@ -120,7 +120,7 @@ export default function Navbar() {
                                 <div className="hamburgerd"></div>
                                 <div className="hamburgerd"></div>
                             </li>
-                            <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div className="offcanvas offcanvas-end" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
                                 <div className="offcanvas-header">
                                     <h5 id="offcanvasRightLabel">Offcanvas right</h5>
                                     <button type="button" className="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
