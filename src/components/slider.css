@@ -1,14 +1,12 @@
 .slide {
     width: 100vw;
-    height: 50vh;
-    margin-left: -14px;
+    height: 25vmax;
 }
 
 .slidebox {
     width: 100vw;
-    height: 50vh;
-    margin-left: 0px;
-    margin-top: 0px;
+    height: 25vmax;
+        margin-top: 5px;
     }
     
     .slider-main-div {
@@ -19,11 +17,11 @@
 }
 @media screen and (max-width:500px) {
     .slide {
-        height: 130px;
+        height: 180px;
     }
 
     .slidebox {
-        height: 130px;
+        height: 180px;
         margin-top: 0px;
     }
    .slider-main-div {

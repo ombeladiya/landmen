@@ -10,8 +10,8 @@ import { Link } from 'react-router-dom';
 export default function ProductBanner() {
     return (
         <div>
-            <div className="container mt-4">
-                <h1 className="fs-4">Top Picks</h1>
+            <div className="main-banner  mt-4 d-flex flex-column">
+                <h1 className="fs-4 mx-4">Top Picks</h1>
                 <div className="d-flex cat-card">
                     <Link to='/productlist' ><div className="main-category-card">
                         <img src={img3} alt="" />
@@ -34,8 +34,8 @@ export default function ProductBanner() {
                 </div>
             </div>
 
-            <div className="container mt-4">
-                <h1 className="fs-4">Pocket Friendly</h1>
+            <div className="main-banner d-flex flex-column mt-4">
+                <h1 className="fs-4 mx-4">Pocket Friendly</h1>
                 <div className="d-flex cat-card">
                     <Link to='/productlist' ><div className="main-category-card2">
                         <img src={img3} alt="" />

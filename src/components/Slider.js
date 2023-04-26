@@ -8,7 +8,7 @@ export default function Slider() {
     return (
         <div className='slider-main-div d-flex'>
 
-            <div className="container slidebox">
+            <div className=" slidebox">
                 <div id="carouselExampleInterval" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
                         <div className="carousel-item active" data-bs-interval="3000">

@@ -4,9 +4,8 @@ export default function Footer() {
     return (
         <div>
             <footer className="footer-distributed">
-
                 <div className="footer-left">
-                    <h3>LANDMEN<span>.in</span></h3>
+                    <h3><b>LANDMEN<span>.IN</span></b></h3>
                     <p className="footer-links">
                         <a href="/" className="link-1">Home</a>
                         <a href="/">Blog</a>
@@ -16,7 +15,7 @@ export default function Footer() {
                         <a href="/">Contact</a>
                     </p>
 
-                    <p className="footer-company-name">LANDMEN.in ©2023</p>
+                    <p className="footer-company-name">LANDMEN ©2023</p>
                 </div>
 
                 <div className="footer-center">
@@ -35,12 +34,7 @@ export default function Footer() {
                 </div>
 
                 <div className="footer-right">
-
-                    <p className="footer-company-about">
-                        <span>About the company</span>
-                        Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-                    </p>
-
+                    <h5 className='fs-6'><b>STAY IN TOUCH</b></h5>
                     <div className="footer-icons">
                         <a href="/"><i className="fa fa-facebook"></i></a>
                         <a href="/"><i className="fa fa-twitter"></i></a>
@@ -48,6 +42,49 @@ export default function Footer() {
                         <a href="/"><i className="fa fa-instagram"></i></a>
                     </div>
                 </div>
+            </footer>
+            <footer className='search-footer'>
+                <h5 className='fs-6 mt-3'><b>POPULAR SEARCH</b></h5>
+                <div className="footer-bottom">
+                    <p className="footer-links-bottom">
+                        <a href="/" className="link-1">Shirts</a>
+                        <a href="/">T-shirts</a>
+                        <a href="/">Jeans</a>
+                        <a href="/">Kurties</a>
+                        <a href="/">Top</a>
+                        <a href="/">Shirt For Men</a>
+                        <a href="/">T-shirt For Men</a>
+                        <a href="/">Shirts For Girls</a>
+                        <a href="/">Dresses For Girls</a>
+                        <a href="/">Kurties For Girls</a>
+                        <a href="/">Shorts</a>
+                        <a href="/">Kurties</a>
+                        <a href="/">Top</a>
+                        <a href="/">Shirt For Men</a>
+                        <a href="/">T-shirt For Men</a>
+                        <a href="/">Shirts For Girls</a>
+                        <a href="/">Dresses For Girls</a>
+                        <a href="/">Kurties For Girls</a>
+                        <a href="/">Shorts</a>
+                        <a href="/">T-shirts</a>
+                        <a href="/">Jeans</a>
+                        <a href="/">Kurties</a>
+                        <a href="/">Top</a>
+                        <a href="/">Shirt For Men</a>
+                        <a href="/">T-shirts</a>
+                        <a href="/">Jeans</a>
+                        <a href="/">Kurties</a>
+                        <a href="/">Top</a>
+                        <a href="/">Shirt For Men</a>
+                        <a href="/">T-shirts</a>
+                        <a href="/">Jeans</a>
+                        <a href="/">Kurties</a>
+                        <a href="/">Top</a>
+                        <a href="/">Shirt For Men</a>
+                    </p>
+
+                </div>
+                <p className="text-center copy-right-div">All Right Reserved, LANDMEN ©2023</p>
             </footer>
         </div>
     )

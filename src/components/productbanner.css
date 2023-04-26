@@ -1,10 +1,20 @@
+.prd-card-out {
+    width: 100vw;
+}
 .prd-card-out img {
-    width: 88vw;
-    max-height: 330px;
+    width: 90vw;
+        max-height: 300px;
+        margin: auto;
+    }
+    
+    .main-banner {
+        width: 100vw;
 }
 .cat-card {
+    width: 90vw;
     margin: auto;
     flex-wrap: wrap;
+    margin-left: 20px;
 }
 
 .cat-card>a {
@@ -18,10 +28,14 @@
 }
 
 .main-category-card>img {
-    width: 17vmax;
+    width: 19vmax;
 }
+
 @media screen and (max-width:500px) {
     .prd-card-out img {
         height: 121px;
     }
+.main-category-card>img {
+    height: 200px;
+}
 }
